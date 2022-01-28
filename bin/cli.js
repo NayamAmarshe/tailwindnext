@@ -24,7 +24,7 @@ if (!checkedOut) {
 }
 
 console.log("Installing dependencies");
-const installedDeps = runCommand(installedDeps);
+const installedDeps = runCommand(installDepsCommand);
 
 if (!installedDeps) {
   process.exit(-1);
